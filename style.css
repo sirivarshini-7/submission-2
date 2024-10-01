@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,16 +8,15 @@
 }
 
 :root {
-    --blue-light: #a8c0ff;
-    --blue-medium: #3f8efc;
-    --blue-dark: #004aad;
+    --tenne-tawny: #d65108;
+    --tenne-tawny-dark: #b54507;
 }
 
 body {
     font-weight: 300;
     font-size: 1.05rem;
     line-height: 1.6;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn {
@@ -69,20 +71,20 @@ body {
     font-size: 1.1rem;
     font-family: inherit;
     outline: 0;
-    border: 1px solid var(--blue-medium);
-    color: var(--blue-medium);
+    border: 1px solid var(--tenne-tawny);
+    color: var(--tenne-tawny);
     border-radius: 2rem 0 0 2rem;
 }
 
 .search-control::placeholder {
-    color: var(--blue-medium);
+    color: var(--tenne-tawny);
 }
 
 .search-btn {
     width: 55px;
     height: 55px;
     font-size: 1.8rem;
-    background: var(--blue-medium);
+    background: var(--tenne-tawny);
     color: #fff;
     border: none;
     border-radius: 0 2rem 2rem 0;
@@ -90,7 +92,7 @@ body {
 }
 
 .search-btn:hover {
-    background: var(--blue-dark);
+    background: var(--tenne-tawny-dark);
 }
 
 .meal-result {
@@ -124,7 +126,7 @@ body {
 .recipe-btn {
     text-decoration: none;
     color: #fff;
-    background: var(--blue-medium);
+    background: var(--tenne-tawny);
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.75rem 0;
@@ -136,7 +138,7 @@ body {
 }
 
 .recipe-btn:hover {
-    background: var(--blue-dark);
+    background: var(--tenne-tawny-dark);
 }
 
 .meal-details {
@@ -145,7 +147,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background: var(--blue-medium);
+    background: var(--tenne-tawny);
     border-radius: 1rem;
     width: 90%;
     height: 90%;
@@ -199,7 +201,7 @@ body {
 .recipe-category {
     background: #fff;
     font-weight: 600;
-    color: var(--blue-medium);
+    color: var(--tenne-tawny);
     display: inline-block;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
@@ -234,7 +236,7 @@ body {
 
 .notFound {
     grid-template-columns: 1fr !important;
-    color: var(--blue-medium);
+    color: var(--tenne-tawny);
     font-size: 1.8rem;
     font-weight: 600;
     width: 100%;
